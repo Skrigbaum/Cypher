@@ -32,7 +32,10 @@ namespace CaeserCypher
                     cipherText = cipherText + mychar;
                     position++;
                 }
-                else Console.WriteLine("Input Text Please: ");
+                else
+                {
+                    position++;
+                }
                 Console.WriteLine(cipherText);
                 
             }
